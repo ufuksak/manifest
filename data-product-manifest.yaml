@@ -6,7 +6,7 @@
       "category": [
         "string"
       ],
-      "image": 123,
+      "image": "https://sandbox.dataverse.xsight.me",
       "createdBy": {
         "name": "string",
         "email": "user@example.com",
@@ -14,7 +14,7 @@
         "url": "https://sandbox.dataverse.xsight.me"
       },
       "owner": {
-        "name": null,
+        "name": "string",
         "email": "user@example.com",
         "userid": "string",
         "url": "https://sandbox.dataverse.xsight.me"
@@ -36,7 +36,7 @@
         "alias": [
           "string"
         ],
-        "description": null,
+        "description": "string",
         "tags": [
           "string"
         ],
@@ -51,12 +51,12 @@
           "entityId": "string",
           "sourceSchemaUrl": "https://sandbox.dataverse.xsight.me",
           "projectSchemaUrl": "https://sandbox.dataverse.xsight.me",
-          "filter": null,
+          "filter": "string",
           "projection": "string",
           "processingTimeColumn": "2022-12-02T09:11:24.732Z",
           "actualTimeColumn": "2022-12-02T09:11:24.732Z",
           "uniqueKeyColumns": [
-            null
+            "string"
           ],
           "changeTrackColumns": [
             "string"
@@ -67,7 +67,18 @@
         }
       }
     ],
-    "outputPort": 123,
+    "outputPort": [
+      {
+        "alias": [
+          "string"
+        ],
+        "queryType": "string",
+        "slo": {},
+        "tags": [
+          "string"
+        ]
+      }
+    ],
     "controlPort": {
       "dataQualityRules": [
         "string"
@@ -79,10 +90,10 @@
       ]
     },
     "stateManagement": {
-      "logicalSchemaUrl": 0,
+      "logicalSchemaUrl": "string",
       "retentionPeriod": "string",
       "refreshInterval": "string",
-      "updateStrategy": 123,
+      "updateStrategy": "string",
       "updateStrategyOptions": {
         "processingTimeColumn": "2022-12-02T09:11:24.732Z",
         "actualTimeColumn": "2022-12-02T09:11:24.732Z",
@@ -92,9 +103,9 @@
         "changeTrackColumns": [
           "string"
         ],
-        "tags": {
-          "asd": "string"
-        }
+        "tags": [
+          "string"
+        ]
       }
     }
   },
@@ -103,8 +114,8 @@
     "url": "string",
     "owner": "string",
     "repo": "string",
-    "isAccessGrantedViaApp": 123,
+    "isAccessGrantedViaApp": true,
     "webhookId": 0
   },
-  "state": "Some state"
+  "state": "Draft"
 }
