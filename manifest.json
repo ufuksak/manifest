@@ -1,0 +1,121 @@
+{
+  "manifest": {
+    "discoveryPort": {
+      "name": "string",
+      "description": "string",
+      "category": [
+        "string"
+      ],
+      "image": "https://sandbox.dataverse.xsight.me",
+      "createdBy": {
+        "name": "string",
+        "email": "user@example.com",
+        "userid": "string",
+        "url": "https://sandbox.dataverse.xsight.me"
+      },
+      "owner": {
+        "name": "string",
+        "email": "user@example.com",
+        "userid": "string",
+        "url": "https://sandbox.dataverse.xsight.me"
+      },
+      "createdDateTime": "2022-08-07T21:31:12.276Z",
+      "updatedDateTime": "2022-08-07T21:31:12.276Z",
+      "tags": [
+        "string"
+      ],
+      "domainInfo": [
+        {
+          "name": "string",
+          "value": "string"
+        }
+      ]
+    },
+    "inputPorts": [
+      {
+        "alias": [
+          "string"
+        ],
+        "description": "string",
+        "tags": [
+          "string"
+        ],
+        "syncType": "string",
+        "connectionOptions": {
+          "type": "string",
+          "uri": "string"
+        },
+        "entity": {
+          "type": "string",
+          "portId": "string",
+          "entityId": "string",
+          "sourceSchemaUrl": "https://sandbox.dataverse.xsight.me",
+          "projectSchemaUrl": "https://sandbox.dataverse.xsight.me",
+          "filter": "string",
+          "projection": "string",
+          "processingTimeColumn": "2022-12-02T09:11:24.732Z",
+          "actualTimeColumn": "2022-12-02T09:11:24.732Z",
+          "uniqueKeyColumns": [
+            "string"
+          ],
+          "changeTrackColumns": [
+            "string"
+          ],
+          "isDataProduct": true,
+          "dataProductId": "string",
+          "accessOptions": {}
+        }
+      }
+    ],
+    "outputPort": [
+      {
+        "alias": [
+          "string"
+        ],
+        "queryType": "string",
+        "slo": {},
+        "tags": [
+          "string"
+        ]
+      }
+    ],
+    "controlPort": {
+      "dataQualityRules": [
+        "string"
+      ],
+      "businessMetrics": {},
+      "slo": {},
+      "tags": [
+        "string"
+      ]
+    },
+    "stateManagement": {
+      "logicalSchemaUrl": "string",
+      "retentionPeriod": "string",
+      "refreshInterval": "string",
+      "updateStrategy": "string",
+      "updateStrategyOptions": {
+        "processingTimeColumn": "2022-12-02T09:11:24.732Z",
+        "actualTimeColumn": "2022-12-02T09:11:24.732Z",
+        "uniqueKeyColumns": [
+          "string"
+        ],
+        "changeTrackColumns": [
+          "string"
+        ],
+        "tags": [
+          "string"
+        ]
+      }
+    }
+  },
+  "gitRepoInfo": {
+    "isUserProvided": true,
+    "url": "string",
+    "owner": "string",
+    "repo": "string",
+    "isAccessGrantedViaApp": true,
+    "webhookId": 0
+  },
+  "state": "Draft"
+}
