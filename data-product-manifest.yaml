@@ -1,7 +1,7 @@
 {
   "manifest": {
     "discoveryPort": {
-      "name": "string",
+      "name": null,
       "description": "string",
       "category": [
         "string"
