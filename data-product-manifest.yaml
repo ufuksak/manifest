@@ -2,22 +2,23 @@
   "manifest": {
     "discoveryPort": {
       "name": null,
-      "description": "string",
+      "description": null,
       "category": [
-        "string"
+        "string",
+        null
       ],
-      "image": "https://sandbox.dataverse.xsight.me",
+      "asdasd": null,
+      "image": null,
       "createdBy": {
-        "name": "string",
-        "email": "user@example.com",
-        "userid": "string",
-        "url": "https://sandbox.dataverse.xsight.me"
+        "name": null,
+        "email": null,
+        "url": null
       },
       "owner": {
-        "name": "string",
-        "email": "user@example.com",
-        "userid": "string",
-        "url": "https://sandbox.dataverse.xsight.me"
+        "name": null,
+        "email": null,
+        "userid": null,
+        "url": null
       },
       "createdDateTime": "2022-08-07T21:31:12.276Z",
       "updatedDateTime": "2022-08-07T21:31:12.276Z",
@@ -46,8 +47,7 @@
           "uri": "string"
         },
         "entity": {
-          "type": "string",
-          "portId": "string",
+          "type": 123,
           "entityId": "string",
           "sourceSchemaUrl": "https://sandbox.dataverse.xsight.me",
           "projectSchemaUrl": "https://sandbox.dataverse.xsight.me",
@@ -62,8 +62,8 @@
             "string"
           ],
           "isDataProduct": true,
-          "dataProductId": "string",
-          "accessOptions": {}
+          "dataProductId": 123,
+          "accessOptions": []
         }
       }
     ],
@@ -93,7 +93,7 @@
       "logicalSchemaUrl": "string",
       "retentionPeriod": "string",
       "refreshInterval": "string",
-      "updateStrategy": "string",
+      "updateStrategy": 123,
       "updateStrategyOptions": {
         "processingTimeColumn": "2022-12-02T09:11:24.732Z",
         "actualTimeColumn": "2022-12-02T09:11:24.732Z",
@@ -113,9 +113,9 @@
     "isUserProvided": true,
     "url": "string",
     "owner": "string",
-    "repo": "string",
+    "repo": 123,
     "isAccessGrantedViaApp": true,
     "webhookId": 0
   },
-  "state": "Draft"
+  "state": "Some state"
 }
